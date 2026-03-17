@@ -5,10 +5,10 @@
 ### 2.1 Equation Editing
 | # | text | formula |
 |---|------|---------|
-| 1 | IF (P AND Q) THEN R | $$P$$|
-| 2 | (P XOR Q) OR R | $$P$$      |
-| 3 | NOT P IFF Q |  $$P$$   |
-| 4 | FOR ALL x, P(x) | $$P$$  |
+| 1 | IF (P AND Q) THEN R | ($P \wedge Q$) $\to R$|
+| 2 | (P XOR Q) OR R | ($P \oplus Q$) $\vee R$      |
+| 3 | NOT P IFF Q |  $\neg P$ $\leftrightarrow Q$   |
+| 4 | FOR ALL x, P(x) | $(\forall x) P(x)$ |
 | 5 | THERE EXISTS AN x, NOT Q(x) | $$P$$ |
 | 6 | IF P THEN Q EQUIVALENT TO NOT P OR Q | $$P$$ |
 | 7 | Euler's Identity |  $$P$$  |
